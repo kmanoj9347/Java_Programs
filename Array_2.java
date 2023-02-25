@@ -1,3 +1,4 @@
+ //print all strings stored on odd indices of the array.
 import java.util.Scanner;
 public class Array_2 {
     public static void main(String[] args) {
