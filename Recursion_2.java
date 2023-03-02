@@ -5,7 +5,7 @@ public class Recursion_2 {
         if(k==0)
         return ;
         System.out.println((n*i)+" "); 
-        func(n,k-1,i+1);
+        func(n,k-1,i+1);// to print k multiple of the number.
     }
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
