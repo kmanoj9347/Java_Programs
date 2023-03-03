@@ -1,12 +1,12 @@
 import java.util.*;
 import java.io.*;
-public class Euclidean_Algorithm {
+public class Recursion_4 {
     static int gcd(int a ,int b){
         if(a ==0 || b ==0)
         return 0;
         if (a == b)//base case
         return a ;
-        if( a >b )
+        if( a >b )//Euclidean Algorithm by Subtraction.
         return gcd(a-b ,b);
         return gcd(a,b-a);
     }
