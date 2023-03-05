@@ -19,11 +19,9 @@ class Vehicle {
 class Car extends Vehicle {
     int cc;
     int gears;
-    void attributescar(){
-    
-    }
+    void attributesCar(){
+     }
 }
-
 public class Inheritance {
     public static void main(String[] args) {
         Car cr =new Car();

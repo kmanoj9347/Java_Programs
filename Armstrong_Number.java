@@ -5,7 +5,7 @@ public class Armstrong_Number {
     static int level =-1;
     public static void main(String[] args) {
        Scanner sc =new Scanner(System.in);
-       System.out.println("Enter the number n : "); 
+       System.out.print("Enter the number n : "); 
        int n =sc.nextInt();
        int digits =0;
        int temp =n;
@@ -28,3 +28,9 @@ public class Armstrong_Number {
         return pow(n%10, dig) + isArmstrong(n/10, dig);
     }
 }
+//Armstrong number 
+/*  example :- n = 153
+ * 153 - 1 cube    5 cube   3 cube 
+ *       1*1*1  +    5*5*5  +  3*3*3
+ *          1+125+27 =153 (yes)
+ */

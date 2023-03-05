@@ -5,7 +5,7 @@ class Animal{
 }
 class Dog extends Animal{
     void bark(){
-        System.out.println("Barking.......");
+        System.out.println("Barking....");
     }
 }
 class BabyDog extends Dog{

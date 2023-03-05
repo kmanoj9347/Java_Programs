@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Power_Recursion {
     public static int func(int a ,int b){ 
-        if(b==0)
+        if(b==0)//base condition.
         return 1;
         return(a*(func(a,b-1)));
     }
