@@ -1,3 +1,4 @@
+// print all n -digit numbers whose digits are strictly increasing from left to right.
 import java.util.*;
 public class Recursion_6 {
     static void printNDigitNumber(int start,String out,int n){
