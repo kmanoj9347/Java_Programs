@@ -17,7 +17,7 @@ class three extends two {
         System.out.println("Bye");
     }
 }
-public class Inheritance_2 {
+public class Inheritance_02 {
     public static void main(String[] args) {
         three obj =new three();
         obj.print_hai();

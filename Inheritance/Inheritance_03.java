@@ -21,7 +21,7 @@ class D extends A {
         System.out.println("Class D");
     }
 }
-public class Inheritance_3 {
+public class Inheritance_03 {
     public static void main(String[] args) {
         B obj_B =new B();
         obj_B.print_A();

@@ -10,7 +10,7 @@ import java.util.*;
             System.out.println("Hello");
         }
     }
-    public class Inheritance_1 {
+    public class Inheritance_01 {
         public static void main(String[] args) {
             two g= new two();
             g.print_hi();
